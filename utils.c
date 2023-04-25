@@ -5,7 +5,7 @@
 
 //sign extends a bitfield with given size
 /* You may find implementing this function helpful */
-int bitExtender(unsigned int field, unsigned int size) {
+int bitSigner(unsigned int field, unsigned int size) {
   /* YOUR CODE HERE */
   return 0;
 }
@@ -13,13 +13,13 @@ int bitExtender(unsigned int field, unsigned int size) {
 
 /* Distances in BYTES */
 
-int get_branch_distance(Instruction instruction) {
+int get_branch_offset(Instruction instruction) {
   /* YOUR CODE HERE */
   return 0;
 }
 
 
-int get_jump_distance(Instruction instruction) {
+int get_jump_offset(Instruction instruction) {
   /* YOUR CODE HERE */
   return 0;
 }

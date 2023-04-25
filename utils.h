@@ -13,9 +13,9 @@
 #define BRANCH_FORMAT "%s\tx%d, x%d, %d\n"
 #define ECALL_FORMAT "ecall\n"
 
-int bitExtender(unsigned, unsigned);
-int get_branch_distance(Instruction);
-int get_jump_distance(Instruction);
+int bitSigner(unsigned, unsigned);
+int get_branch_offset(Instruction);
+int get_jump_offset(Instruction);
 int get_memory_offset(Instruction);
 void handle_invalid_instruction(Instruction);
 void handle_invalid_read(Address);
